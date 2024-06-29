@@ -15,3 +15,5 @@ OBS!!
 You neeed ox_lib or else this script wont work!
 
 link to ox_lib: https://github.com/overextended/ox_lib/releases/tag/v3.22.2
+
+preview: https://streamable.com/ai72zv
