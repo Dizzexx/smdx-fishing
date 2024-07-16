@@ -18,6 +18,18 @@ function CreateFishSellerPed()
     local FishPed = CreatePed(0, pedModel, pedCoords, pedHeading, false, false)
     FreezeEntityPosition(FishPed, true)
     SetEntityInvincible(FishPed, true)
+
+    exports['qb-target']:AddTargetEntity(FishPed, {
+        options = {
+            {
+                type = "client",
+                event = "smdx-fishing:openMenu",
+                icon = "fas fa-user",
+                label = Config.Translations.Interact.open_fish_shop
+            },
+        },
+        distance = 2.0
+    })
 end
 
 function CreatePurchasePed()
@@ -37,6 +49,18 @@ function CreatePurchasePed()
     local FishPed = CreatePed(0, pedModel, pedCoords, pedHeading, false, false)
     FreezeEntityPosition(FishPed, true)
     SetEntityInvincible(FishPed, true)
+
+    exports['qb-target']:AddTargetEntity(FishPed, {
+        options = {
+            {
+                type = "client",
+                event = "smdx-fishing:openSellMenu",
+                icon = "fas fa-user",
+                label = Config.Translations.Interact.open_seller
+            },
+        },
+        distance = 2.0
+    })
 end
 
 -- [CREATE BLIPS] --

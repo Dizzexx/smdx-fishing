@@ -28,8 +28,8 @@ Config.Translations = {
         not_enough_fish = 'NOT ENOUGH FISH',
     },
     Interact = {
-        open_fish_shop = '[E] - Fishing Shop',
-        open_seller = '[E] - Sell Fish',
+        open_fish_shop = 'Fishing Shop',
+        open_seller = 'Sell Fish',
     },
     Notify = {
         bought_fishing_rod = 'You bought a fishing rod for $10',
