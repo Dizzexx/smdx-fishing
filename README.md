@@ -12,7 +12,7 @@ If you got any questions at all, Please feel free to join our discord and open a
 
 OBS!!
 
-You neeed ox_lib or else this script wont work!
+You need ox_lib or else this script wont work!
 
 link to ox_lib: https://github.com/overextended/ox_lib/releases/tag/v3.22.2
 
